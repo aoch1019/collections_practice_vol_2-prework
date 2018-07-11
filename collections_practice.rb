@@ -46,5 +46,5 @@ array.each do |word|
   counts[word] += 1
 end
 
-  
+return counts
 end
