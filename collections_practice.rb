@@ -44,5 +44,6 @@ def count_elements (array)
     h[g[:name]] += 1
   end
   
+  return array
   
 end
