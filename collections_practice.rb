@@ -59,5 +59,7 @@ end
 def merge_data(keys, data)
   new_array = []
   
-  keys.each 
+  keys.each do |name|
+    name[:first_name]
+  end
 end
