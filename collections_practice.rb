@@ -43,9 +43,10 @@ def count_elements (array)
   array.each do |hash|
     binding.pry
     new_array.push({count: array.count(hash)})
-    array.delete_if do |elem|
-      binding.pry
-      elem == hash
+    array.collect do |elem|
+      if elem == hash
+        elem = nil
+      end
     end
   end
   
