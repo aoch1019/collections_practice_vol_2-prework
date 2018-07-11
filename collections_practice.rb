@@ -84,7 +84,7 @@ end
 def organize_schools(hashes)
   new_hash = {}
   
-  hashes.each do |hash|
+  hashes.each do |key, hash|
     if hash[:]
   end
 end
