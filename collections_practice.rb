@@ -67,3 +67,5 @@ new_array = []
  
  return new_array
 end
+
+def find_cool 
