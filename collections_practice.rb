@@ -10,4 +10,6 @@ def begins_with_r(array)
 end
 
 
-def contain_a
+def contain_a (array)
+  new_array = []
+end
