@@ -81,4 +81,8 @@ def find_cool(array)
   return cool_hashes
 end
 
-def organize_schools
+def organize_schools(hashes)
+  hashes.each do |hash|
+    if 
+  end
+end
