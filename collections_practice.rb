@@ -39,13 +39,7 @@ def remove_non_strings (array)
 end
 
 def count_elements (array)
-  new_array = []
   
-  
-  array.each_with_object(Hash.new(0)) do |g,h|
-    new_array.push(g: h[g[:name]] += 1)
-  end
-  
-  return new_array
+array.each_with_object(Hash.new(0)) { |word,counts| counts[word] += 1 }
   
 end
