@@ -40,7 +40,7 @@ end
 
 def count_elements (array)
   
- array.each_with_object(Hash.new(0)) { |g,h| h[g[:name]] += 1 }
-    map { |name, count| { :name=>name, :count=>count } }
+  array.each_with_object(Hash.new(0)) { |g,h| h[g[:name]] += 1 }
+  array.map { |name, count| { :name=>name, :count=>count } }
   
 end
