@@ -69,3 +69,5 @@ new_array = []
 end
 
 def find_cool 
+  
+end
