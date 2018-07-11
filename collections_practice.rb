@@ -61,8 +61,10 @@ new_array = []
 
   data.each do |hash|
     hash.each do |key, value|
-      
+      value[:firstname] = key
+      new_array.push(value)
     end
   end
  
+ return value
 end
