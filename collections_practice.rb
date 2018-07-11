@@ -42,7 +42,7 @@ def count_elements (array)
   new_array = []
   array.each do |hash|
     binding.pry
-    new_array.push({count: array.count(hash)})
+    new_array.push({hash, count: array.count(hash)})
     array.collect do |elem|
       if elem == hash
         elem = nil
