@@ -61,8 +61,7 @@ new_array = []
 
   data.each do |hash|
     hash.each do |key, value|
-      {firstname: key}.merge()
-      new_array.push(value)
+      new_array.push({firstname: key}.merge(value))
     end
   end
  
