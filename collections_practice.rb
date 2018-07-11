@@ -89,7 +89,7 @@ def organize_schools(hashes)
     if new_hash.to_a.include?(hash[:location])
       new_hash[hash[:location]].push = key
     else
-      new_hash[hash[:location]] = 
+      new_hash[hash[:location]] = Array.new(key)
     end
   end
 end
