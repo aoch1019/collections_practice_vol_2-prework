@@ -68,6 +68,11 @@ new_array = []
  return new_array
 end
 
-def find_cool 
+def find_cool(array)
   
+  array.each do |hash|
+    hash.each do |key, value|
+      
+    end
+  end
 end
