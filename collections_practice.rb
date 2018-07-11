@@ -23,7 +23,7 @@ end
 
 def first_wa (array)
   array.each do |word|
-    if word.include?("wa")
+    if word.to_s.include?("wa")
       return wa
     end
   end
