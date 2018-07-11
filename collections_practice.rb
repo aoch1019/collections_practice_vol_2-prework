@@ -40,6 +40,9 @@ end
 
 def count_elements (array)
   
-  array.each_with_object(Hash.new(0)) { |g,h| h[g[:name]] += 1 }
+  array.each_with_object(Hash.new(0)) do |g,h|
+    h[g[:name]] += 1
+  end
+  
   
 end
