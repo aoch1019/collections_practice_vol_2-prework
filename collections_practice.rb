@@ -57,9 +57,10 @@ return new_array
 end
 
 def merge_data(keys, data)
+new_array = []
 
-
-  keys.collect do |name|
- 
+  data.each do |hash|
+    
+  end
  
 end
