@@ -44,6 +44,7 @@ def count_elements (array)
     binding.pry
     new_array.push({count: array.count(hash)})
     array.delete_if do |elem|
+      binding.pry
       elem == hash
     end
   end
