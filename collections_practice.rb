@@ -80,3 +80,5 @@ def find_cool(array)
   
   return cool_hashes
 end
+
+def organize_schools
