@@ -2,6 +2,9 @@
 
 def begins_with_r(array)
   array.each do |word|
-    if 
+    if word[0] != "r"
+      return false
+    end
   end
+  return true
 end
