@@ -59,9 +59,9 @@ end
 def merge_data(keys, data)
 
   keys.collect do |name|
-    name[:awesomeness] = name[:first_name][:awesomeness]
-    name[:height] = name[:first_name][:height]
-    name[:last_name] = name[:first_name][:last_name]
+    name[:awesomeness] = data[:first_name][:awesomeness]
+    name[:height] = data[:first_name][:height]
+    name[:last_name] = data[:first_name][:last_name]
   end
   
 end
