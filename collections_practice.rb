@@ -13,7 +13,7 @@ end
 def contain_a (array)
   new_array = []
   array.each do |word|
-    if word.contains("a")
+    if word.include?("a")
       new_array.push(word)
     end
   end
