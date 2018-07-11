@@ -29,3 +29,7 @@ def first_wa (array)
   end
   return nil
 end
+
+def remove_non_string (array)
+  
+end
