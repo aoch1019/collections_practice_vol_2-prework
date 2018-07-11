@@ -1,3 +1,5 @@
+require 'pry'
+
 # your code goes here
 
 def begins_with_r(array)
@@ -39,9 +41,12 @@ end
 def count_elements (array)
   new_array = []
   array.each do |hash|
+    binding.pry
     new_array.push({hash, count: array.count(hash)})
     array.delete_if do |elem|
       elem == hash
     end
   end
+  
+  return new_array
 end
