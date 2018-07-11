@@ -57,5 +57,7 @@ return new_array
 end
 
 def merge_data(keys, data)
+  new_array = []
   
+  keys.each 
 end
