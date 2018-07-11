@@ -42,7 +42,7 @@ def count_elements (array)
   new_array = []
   
   
-  array.each_with_object(Hash.new(0)) do |g,h|
+  array.each_with_object("Blake") do |g,h|
     new_array.push(h[g[:name]] += 1)
   end
   
