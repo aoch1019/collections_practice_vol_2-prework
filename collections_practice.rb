@@ -49,7 +49,8 @@ end
 new_array = []
 
 counts.each do |hash, count|
-  new_array.push(hash[:count] = count)
+  hash[:count] = count
+  new_array.push(hash)
 end
 
 return new_array
