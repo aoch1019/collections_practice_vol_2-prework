@@ -39,6 +39,9 @@ end
 def count_elements (array)
   new_array = []
   array.each do |hash|
-    
+    new_array.push({hash, count: array.count(hash)})
+    array.delete_if do |elem|
+      elem == hash
+    end
   end
 end
