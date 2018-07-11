@@ -32,6 +32,6 @@ end
 
 def remove_non_string (array)
   array.delete_if do |elem|
-    
+    elem.instance_of?(String)
   end
 end
