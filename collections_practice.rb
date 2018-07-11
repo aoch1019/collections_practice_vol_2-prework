@@ -59,7 +59,7 @@ end
 def merge_data(keys, data)
 
   keys.collect do |name|
-    name[:first_name]
+    name[:awesomeness] = name[:first_name][:awesomeness]
   end
   
 end
