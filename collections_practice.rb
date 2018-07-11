@@ -58,10 +58,8 @@ end
 
 def merge_data(keys, data)
 
+
   keys.collect do |name|
-    name[:awesomeness] = data.fetch([:first_name][:awesomeness])
-    name[:height] = data.fetch([:first_name][:height])
-    name[:last_name] = data.fetch([:first_name][:last_name])
-  end
-  
+ 
+ 
 end
