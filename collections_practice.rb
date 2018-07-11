@@ -56,4 +56,6 @@ end
 return new_array
 end
 
-def merge_data
+def merge_data(keys, data)
+  
+end
