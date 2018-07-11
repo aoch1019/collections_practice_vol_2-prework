@@ -48,7 +48,7 @@ end
 
 new_array = []
 
-counts.collect do |hash, count|
+counts.each do |hash, count|
   new_array.push(hash)
 end
 
