@@ -48,8 +48,8 @@ end
 
 new_array = []
 
-counts.collect do |hash_key, count|
-  new_array.push(hash_hey)
+counts.collect do |hash, count|
+  new_array.push(hash)
 end
 
 return new_array
