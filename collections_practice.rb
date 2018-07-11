@@ -44,6 +44,6 @@ def count_elements (array)
     h[g[:name]] += 1
   end
   
-  map { |name, count| { :name=>name, :count=>count } }
+  array.map { |name, count| { :name=>name, :count=>count } }
   
 end
