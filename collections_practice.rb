@@ -66,5 +66,5 @@ new_array = []
     end
   end
  
- return value
+ return new_array
 end
