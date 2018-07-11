@@ -46,5 +46,11 @@ array.each do |word|
   counts[word] += 1
 end
 
-return counts
+new_array = []
+
+counts.collect do |hash_key, count|
+  new_array.push(hash_hey)
+end
+
+return new_array
 end
