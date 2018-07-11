@@ -85,6 +85,7 @@ def organize_schools(hashes)
   new_hash = {}
   
   hashes.each do |key, hash|
+    binding.pry
     if new_hash.to_a.include?(hash[:location])
       new_hash[hash[:location]].push = key
     else
