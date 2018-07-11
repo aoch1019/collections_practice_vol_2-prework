@@ -82,7 +82,9 @@ def find_cool(array)
 end
 
 def organize_schools(hashes)
+  new_has = {}
+  
   hashes.each do |hash|
-    if 
+    if hash[:]
   end
 end
