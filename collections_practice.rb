@@ -50,6 +50,7 @@ new_array = []
 
 counts.collect do |hash, count|
   new_array.push(hash)
+  new_array[hash][:count => count]
 end
 
 return new_array
