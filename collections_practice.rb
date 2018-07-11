@@ -40,6 +40,11 @@ end
 
 def count_elements (array)
   
-array.each_with_object(Hash.new(0)) { |word,counts| {:count => counts[word] += 1} }
+counts = Hash.new 0
+
+words.each do |word|
+  counts[word] += 1
+end
+
   
 end
