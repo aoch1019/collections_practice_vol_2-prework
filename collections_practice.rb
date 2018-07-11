@@ -35,3 +35,5 @@ def remove_non_strings (array)
     elem.instance_of?(String) == false
   end
 end
+
+def count_elements (array)
