@@ -16,7 +16,6 @@ def contain_a (array)
     if word.contains("a")
       new_array.push(word)
     end
-    end
   end
   
   return new_array
