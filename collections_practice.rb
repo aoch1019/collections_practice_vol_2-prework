@@ -27,4 +27,5 @@ def first_wa (array)
       return wa
     end
   end
+  return nil
 end
